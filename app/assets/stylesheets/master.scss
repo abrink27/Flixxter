@@ -1,8 +1,4 @@
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
-
 .navbar {
   border-radius:0;
   font-family: "Helvetica Neue", Helvetica;
@@ -71,4 +67,8 @@ body {
 
 .booyah-box h2, .booyah-box h1 {
   margin:10px;
+}
+
+.clr {
+  clear:both;
 }
