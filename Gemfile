@@ -11,6 +11,8 @@ gem 'sass-rails'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+gem 'devise', '>= 3.2.4'
+
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
