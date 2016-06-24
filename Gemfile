@@ -12,6 +12,7 @@ gem 'sass-rails'
 gem 'pg'
 
 gem 'devise', '>= 3.2.4'
+gem 'carrierwave'
 
 
 # Use Uglifier as compressor for JavaScript assets
