@@ -13,13 +13,13 @@ gem 'pg'
 
 gem 'devise', '>= 3.2.4'
 
-gem 'carrierwave'
+
 
 gem 'figaro'
 
-gem 'fog'
-
-gem 'mini_magick', '~> 4.3.1'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'carrierwave-aws'
 
 
 # Use Uglifier as compressor for JavaScript assets
