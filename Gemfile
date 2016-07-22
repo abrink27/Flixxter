@@ -13,7 +13,7 @@ gem 'pg'
 
 gem 'devise', '>= 3.2.4'
 
-
+gem 'jquery-ui-rails'
 
 gem 'figaro'
 
