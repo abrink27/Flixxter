@@ -1,4 +1,17 @@
-
+<script>
+  $(function() {
+    $('.lessons').sortable({
+      update: function( event, ui ) {
+        $.ajax({
+          type: 'PUT',
+          url: ui.item.data('update-url'),
+          dataType: 'json',
+          data: { lesson: { row_order_position: ui.item.index() } }
+        });
+      }
+    });
+   });
+</script>
 
 <br />
 <div class="booyah-box col-xs-10 col-xs-offset-1">

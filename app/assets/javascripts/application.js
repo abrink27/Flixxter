@@ -19,5 +19,3 @@
 
 //= require jquery-ui
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
