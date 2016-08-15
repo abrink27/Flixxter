@@ -10,7 +10,7 @@ class Instructor::SectionsController < ApplicationController
 
   def update
     current_section.update_attributes(section_params)
-    render text: 'updated!'
+  
   end
 
   private
