@@ -26,7 +26,6 @@ body {
   background:url('dark_wood.png');
   font-family: "Helvetica Neue",Helvetica;
   padding: 10px 0px;
-  margin-top: 300px;
   bottom: 0;
   position: absolute;
   width: 100%;
@@ -65,7 +64,7 @@ $footer-height-mobile: auto;
 
 }
 
-$footer-height-mobile: 200px;
+$footer-height-mobile: autopx;
 @media (max-width: 750px) {
   #footer {
     height:$footer-height-mobile;
