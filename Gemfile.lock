@@ -90,6 +90,10 @@ GEM
     mini_magick (4.5.1)
     mini_portile2 (2.1.0)
     minitest (4.7.5)
+    mobileesp_converted (0.2.3)
+    mobvious (0.3.2)
+      mobileesp_converted (~> 0.2.0)
+      rack (>= 1.1.0)
     multi_json (1.12.1)
     netrc (0.11.0)
     nokogiri (1.6.8)
@@ -126,6 +130,8 @@ GEM
     rdoc (3.9.5)
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
+    responsive_images (0.1.2)
+      mobvious
     rest-client (2.0.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
@@ -190,6 +196,7 @@ DEPENDENCIES
   rails (= 4.0.6)
   rails_12factor
   ranked-model
+  responsive_images
   sass-rails
   sdoc
   simple_form
